@@ -4,7 +4,7 @@
   "description": "CORS enabled API Gateway that uses a Lambda Token Authorizer by default",
   "license": "Apache-2.0",
   "dependencies": {
-    "serve": "^11.1.0"
+    "serve": "^14.1.1"
   },
   "scripts": {
     "deploy": "sam deploy --template-file packaged.yaml --stack-name authorizer-cors-example --capabilities CAPABILITY_IAM",
